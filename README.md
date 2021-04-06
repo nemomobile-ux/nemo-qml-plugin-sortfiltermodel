@@ -1,0 +1,1 @@
+**Nemomobile qml wrapper for QSortFilterProxyModel class**
