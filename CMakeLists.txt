@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.1.0)
+cmake_minimum_required(VERSION 3.5.0)
 
-project(nemosettings
+project(nemosortfiltermodel
     VERSION 0.1
     DESCRIPTION "Provides QML features of class QSortFilterModel")
 
@@ -10,8 +10,8 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 include(FeatureSummary)
 include(GNUInstallDirs)
 
-set(QT_MIN_VERSION "5.6.0")
-find_package(Qt5 COMPONENTS Core Qml Quick REQUIRED)
+set(QT_MIN_VERSION "6.0.0")
+find_package(Qt6 COMPONENTS Core Qml Quick REQUIRED)
 
 add_subdirectory(src)
 

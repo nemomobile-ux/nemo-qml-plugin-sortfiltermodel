@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 Chupligin Sergey <neochapay@gmail.com>
+ * Copyright (C) 2021-2023 Chupligin Sergey <neochapay@gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -24,12 +24,12 @@
 #include <QQmlEngine>
 #include <QQmlExtensionPlugin>
 
-class Q_DECL_EXPORT NemoSettingsPlugin : public QQmlExtensionPlugin
+class Q_DECL_EXPORT NnemoSortfilterModel : public QQmlExtensionPlugin
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID "org.nemomobile.sortfiltermodel")
 public:
-    virtual ~NemoSettingsPlugin() { }
+    virtual ~NnemoSortfilterModel() { }
 
     void initializeEngine(QQmlEngine *, const char *uri)
     {
